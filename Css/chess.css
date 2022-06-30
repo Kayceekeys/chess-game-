@@ -1,0 +1,360 @@
+
+:root{
+    font-size: calc(0.5em + 1vh);
+    box-sizing: border-box;
+}
+
+@media(min-width: 50em) {
+    :root{
+        font-size: 1.125em; }
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+
+}
+html, body{
+
+    height: 100%;
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+
+}
+
+
+.row, .column{
+    flex: 1;
+    display: flex;
+    
+}
+
+.row:nth-child(1){
+    background-color: white;
+}
+
+.row:nth-child(2){
+    background-color: black;
+}
+.row:nth-child(3){
+    background-color: white;
+}
+.row:nth-child(4){
+    background-color: black;
+}
+
+.row:nth-child(5){
+    background-color: white;
+}
+.row:nth-child(6){
+    background-color: black;
+}
+
+.row:nth-child(7){
+    background-color: white;
+}
+.row:nth-child(8){
+    background-color: black;
+}
+
+
+
+
+.row:nth-child(1) .column:nth-child(1){
+    background-color: white;
+}
+.row:nth-child(2) .column:nth-child(2){
+    background-color: black;
+}
+.row:nth-child(3) .column:nth-child(3){
+    background-color: white;
+    
+}
+
+.row:nth-child(4) .column:nth-child(4){
+    background-color: black;
+}
+.row:nth-child(5) .column:nth-child(5){
+    background-color:  white;
+}
+.row:nth-child(6) .column:nth-child(6){
+    background-color: black;
+}
+.row:nth-child(7) .column:nth-child(7){
+    background-color: white;
+}
+.row:nth-child(8) .column:nth-child(8){
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+.row:nth-child(1) .column:nth-child(1){
+    background-color: white;
+}
+.row:nth-child(1) .column:nth-child(2){
+    background-color: black;
+}
+.row:nth-child(1) .column:nth-child(3){
+    background-color: white;
+    
+}
+
+.row:nth-child(1) .column:nth-child(4){
+    background-color: black;
+}
+.row:nth-child(1) .column:nth-child(5){
+    background-color:  white;
+}
+.row:nth-child(1) .column:nth-child(6){
+    background-color: black;
+}
+.row:nth-child(1) .column:nth-child(7){
+    background-color: white;
+}
+.row:nth-child(1) .column:nth-child(8){
+    background-color: black;
+}
+
+
+.row:nth-child(2) .column:nth-child(2){
+    background-color: white;
+}
+.row:nth-child(2) .column:nth-child(1){
+    background-color: black;
+}
+.row:nth-child(2) .column:nth-child(4){
+    background-color: white;
+    
+}
+
+.row:nth-child(2) .column:nth-child(5){
+    background-color: black;
+}
+.row:nth-child(2) .column:nth-child(6){
+    background-color:  white;
+}
+.row:nth-child(2) .column:nth-child(7){
+    background-color: black;
+}
+.row:nth-child(2) .column:nth-child(8){
+    background-color: white;
+}
+.row:nth-child(2) .column:nth-child(1){
+    background-color: black;
+
+}
+
+.row:nth-child(3) .column:nth-child(1){
+    background-color: white;
+}
+
+.row:nth-child(3) .column:nth-child(2){
+    background-color: black;
+}
+.row:nth-child(3) .column:nth-child(3){
+    background-color: white;
+    
+}
+
+.row:nth-child(3) .column:nth-child(4){
+    background-color: black;
+}
+.row:nth-child(3) .column:nth-child(5){
+    background-color:  white;
+}
+.row:nth-child(3) .column:nth-child(6){
+    background-color: black;
+}
+.row:nth-child(3) .column:nth-child(7){
+    background-color: white;
+}
+.row:nth-child(3) .column:nth-child(8){
+    background-color: black;
+}
+
+
+
+
+
+.row:nth-child(4) .column:nth-child(2){
+    background-color: white;
+}
+.row:nth-child(4) .column:nth-child(1){
+    background-color: black;
+}
+.row:nth-child(4) .column:nth-child(4){
+    background-color: white;
+    
+}
+
+.row:nth-child(4) .column:nth-child(5){
+    background-color: black;
+}
+.row:nth-child(4) .column:nth-child(6){
+    background-color:  white;
+}
+.row:nth-child(4) .column:nth-child(7){
+    background-color: black;
+}
+.row:nth-child(4) .column:nth-child(8){
+    background-color: white;
+}
+.row:nth-child(4) .column:nth-child(1){
+    background-color: black;
+
+}
+
+
+
+
+
+
+
+.row:nth-child(5) .column:nth-child(1){
+    background-color: white;
+}
+
+.row:nth-child(5) .column:nth-child(2){
+    background-color: black;
+}
+.row:nth-child(5) .column:nth-child(3){
+    background-color: white;
+    
+}
+
+.row:nth-child(5) .column:nth-child(4){
+    background-color: black;
+}
+.row:nth-child(5) .column:nth-child(5){
+    background-color:  white;
+}
+.row:nth-child(5) .column:nth-child(6){
+    background-color: black;
+}
+.row:nth-child(5) .column:nth-child(7){
+    background-color: white;
+}
+.row:nth-child(5) .column:nth-child(8){
+    background-color: black;
+}
+
+
+
+
+.row:nth-child(6) .column:nth-child(2){
+    background-color: white;
+}
+.row:nth-child(6) .column:nth-child(1){
+    background-color: black;
+}
+.row:nth-child(6) .column:nth-child(4){
+    background-color: white;
+    
+}
+
+.row:nth-child(6) .column:nth-child(5){
+    background-color: black;
+}
+.row:nth-child(6) .column:nth-child(6){
+    background-color:  white;
+}
+.row:nth-child(6) .column:nth-child(7){
+    background-color: black;
+}
+.row:nth-child(6) .column:nth-child(8){
+    background-color: white;
+}
+.row:nth-child(6) .column:nth-child(1){
+    background-color: black;
+
+}
+
+.row:nth-child(7) .column:nth-child(1){
+    background-color: white;
+}
+
+.row:nth-child(7) .column:nth-child(2){
+    background-color: black;
+}
+.row:nth-child(7) .column:nth-child(3){
+    background-color: white;
+    
+}
+
+.row:nth-child(7) .column:nth-child(4){
+    background-color: black;
+}
+.row:nth-child(7) .column:nth-child(5){
+    background-color:  white;
+}
+.row:nth-child(7) .column:nth-child(6){
+    background-color: black;
+}
+.row:nth-child(7) .column:nth-child(7){
+    background-color: white;
+}
+.row:nth-child(7) .column:nth-child(8){
+    background-color: black;
+}
+
+
+
+
+
+
+.row:nth-child(8) .column:nth-child(2){
+    background-color: white;
+}
+.row:nth-child(8) .column:nth-child(1){
+    background-color: black;
+}
+.row:nth-child(8) .column:nth-child(4){
+    background-color: white;
+    
+}
+
+.row:nth-child(8) .column:nth-child(5){
+    background-color: black;
+}
+.row:nth-child(8) .column:nth-child(6){
+    background-color:  white;
+}
+.row:nth-child(8) .column:nth-child(7){
+    background-color: black;
+}
+.row:nth-child(8) .column:nth-child(8){
+    background-color: white;
+}
+.row:nth-child(8) .column:nth-child(1){
+    background-color: black;
+
+}
+.column{
+    
+    display: inline-block;
+    font-size: 70px
+}
+
+.white{
+    background-color: black;
+    color: black;
+}
+   
+    

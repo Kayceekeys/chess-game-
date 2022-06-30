@@ -1,0 +1,89 @@
+:root{
+    font-size: calc(0.5em + 1vh);
+    box-sizing: border-box;
+}
+
+@media(min-width: 50em) {
+    :root{
+        font-size: 1.125em; }
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+
+}
+html, body{
+
+    height: 100%;
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+
+}
+
+
+.row, .column{
+    flex: 1;
+    display: flex;
+    
+
+}
+.row:nth-child(1){
+    background-color: blue;
+}
+
+.row:nth-child(2){
+    background-color: red;
+}
+.row:nth-child(3){
+    background-color: yellow;
+}
+.row:nth-child(1) .column:nth-child(1){
+    background-color: blue;
+}
+.row:nth-child(1) .column:nth-child(2){
+    background-color: red;
+}
+.row:nth-child(1) .column:nth-child(3){
+    background-color: yellow;
+
+}
+.row:nth-child(2) .column:nth-child(2){
+    background-color: blue;
+}
+.row:nth-child(2) .column:nth-child(3){
+    background-color: red;
+}
+
+.row:nth-child(2) .column:nth-child(1){
+    background-color: yellow;
+}
+
+
+.row:nth-child(3) .column:nth-child(3){
+    background-color: blue;
+}
+.row:nth-child(3) .column:nth-child(1){
+    background-color: red;
+
+}.row:nth-child(3) .column:nth-child(22){
+    background-color: yellow;
+}
+column{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 4rem;
+}
+

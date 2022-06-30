@@ -1,0 +1,40 @@
+h1 {
+
+    color: red;
+    font-style: italic;
+    font-size: xx-large;
+    background-color: brown;
+}
+
+#jennifer {
+
+    color: red;
+
+}
+
+.michael{
+    color: black;
+    font-style: italic;
+}
+body {
+
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+li {
+    color: white;
+    font-style: italic;
+}
+
+#michael.Davido.Tony.kennedy.kelechi p p p p p p {
+    color: red;
+    font-style: italic;
+}
+#Victor.kingsley.jennifer ol ol ol{
+    color: blue;
+}
+
+#preciou#ifeoma#chiamaka#todd.Nigeria.kenya p{
+    color: green;
+}
